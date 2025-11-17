@@ -48,26 +48,25 @@ Finance (Pandas) LSTM Validation Dashboards
 ## 📁 Project Structure
 market-risk-model/
 ├── data/
-│ ├── raw/ # Raw financial data
-│ ├── processed/ # Feature-engineered data
-│ └── external/ # External datasets
+│   ├── raw/                # Raw financial data
+│   ├── processed/          # Feature-engineered data
+│   └── external/           # External datasets
 ├── notebooks/
-│ ├── 01_eda.ipynb # Exploratory data analysis
-│ ├── 02_feature_engineering.ipynb
-│ └── 03_model_benchmarking.ipynb
+│   ├── 01_eda.ipynb        # Exploratory data analysis
+│   ├── 02_feature_engineering.ipynb
+│   └── 03_model_benchmarking.ipynb
 ├── src/
-│ ├── data_processing/ # Data ingestion and cleaning
-│ ├── feature_engineering/ # Technical indicator generation
-│ ├── models/ # VaR model implementations
-│ ├── validation/ # Backtesting and validation
-│ └── visualization/ # Plotting utilities
-├── tests/ # PyTest test suites
-├── infrastructure/ # Terraform configurations
-├── docker/ # Dockerfile and compose files
-├── mlruns/ # MLflow experiment tracking
-├── dvc.yaml # DVC pipeline configuration
-└── configs/ # Model configurations
-
+│   ├── data_processing/    # Data ingestion and cleaning
+│   ├── feature_engineering/# Technical indicator generation
+│   ├── models/             # VaR model implementations
+│   ├── validation/         # Backtesting and validation
+│   └── visualization/      # Plotting utilities
+├── tests/                  # PyTest test suites
+├── infrastructure/         # Terraform configurations
+├── docker/                 # Dockerfile and compose files
+├── mlruns/                 # MLflow experiment tracking
+├── dvc.yaml                # DVC pipeline configuration
+└── configs/                # Model configurations
 
 ## 🚀 Quick Start
 
