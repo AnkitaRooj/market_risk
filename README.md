@@ -50,7 +50,7 @@ market-risk-model/
 ├── data/
 │   ├── raw/                # Raw financial data
 │   ├── processed/          # Feature-engineered data
-│   └── external/           # External datasets
+│   
 ├── notebooks/
 │   ├── 01_eda.ipynb        # Exploratory data analysis
 │   ├── 02_feature_engineering.ipynb
